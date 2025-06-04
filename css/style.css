@@ -38,6 +38,11 @@ a{
     border-color: #69778b;
     background: #69778b;
 }
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    background-color: #69778b;
+    border-color: #69778b;
+    box-shadow: 0 0 0 .25rem rgb(105, 119, 139, .5);
+}
 
 .back-to-top {
     position: fixed;
