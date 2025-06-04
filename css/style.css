@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #32C36C;
+    --primary: #353f52;
     --light: #F6F7F8;
-    --dark: #1A2A36;
+    --dark:#69778b;
 }
 
 .fw-medium {
@@ -15,6 +15,28 @@
 
 .fw-black {
     font-weight: 900 !important;
+}
+
+.text-primary{
+    color: #69778b!important;
+}
+.btn-link{
+    color: #69778b!important;
+}
+a{
+    color: #69778b;
+}
+.bg-primary{
+    background: #69778b!important;
+
+}
+.btn-outline-primary {
+    color: #69778b;
+    border-color: #69778b;
+}
+.btn-outline-primary:hover{
+    border-color: #69778b;
+    background: #69778b;
 }
 
 .back-to-top {
@@ -52,6 +74,15 @@
     color: #FFFFFF;
 }
 
+.btn-primary{
+    background-color: #69778b;
+    border-color: #69778b;
+}
+.btn-primary:hover{
+    background-color: #353f52;
+    border-color: #353f52;
+
+}
 .btn-square {
     width: 38px;
     height: 38px;
